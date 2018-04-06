@@ -1,0 +1,20 @@
+/*
+Css class for adding color to the GUI
+It is not finished yet.
+    Author     : Alexandre Castro
+*/
+
+.root{
+    -fx-background-color: #99ff99;
+}
+.label{
+    -fx-text-fill:#000000
+        
+}
+.button{
+    -fx-background-color: linear-gradient(#FFFFFF, #ccffff);
+    -fx-text-fill: #000000;
+    -fx-background-radius: 3;
+    -fx-font-size: 110%;   
+ 
+}

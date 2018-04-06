@@ -150,6 +150,9 @@ public class MarchMadnessGUI extends Application {
         root.setTop(toolBar);   
         root.setBottom(btoolBar);
         Scene scene = new Scene(root);
+        
+        scene.getStylesheets().add("flux.css");
+        
         primaryStage.setMaximized(true);
 
         primaryStage.setTitle("March Madness Bracket Simulator");
@@ -439,6 +442,8 @@ public class MarchMadnessGUI extends Application {
 
         signButton.setOnAction(event -> {
 
+            //setUserAgentStylesheet(STYLESHEET_MODENA);
+            
             // the name user enter
             String name = enterUser.getText();
             // the password user enter
